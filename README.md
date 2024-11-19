@@ -24,20 +24,14 @@ Read more about the package at: https://arxiv.org/abs/2111.12749
 Tutorials and documentation can be found at: https://maxiuw.github.io/fcmpyhtml
 
 ## Installation
-FCMpy requires python >=3.8.1 (*) and depends on:
+FCMpy requires python >=3.10.0 (*)
 
-* pandas>=1.0.3
-* numpy>=numpy==1.18.2
-* scikit-fuzzy>=0.4.2
-* tqdm>=4.50.2
-* openpyxl
-
-(*) we tested our library on Python 3.8. Some of the dependencies (e.g. Tensorflow) may not work properly if you use higher version of Python. Therefore, we encourage users to create a virtual environment (e.g. Conda env) with Python 3.8 and then _pip install_ our package.
+(*) we tested our library on Python 3.10. Some of the dependencies (e.g. Tensorflow) may not work properly if you use higher version of Python. Therefore, we encourage users to create a virtual environment (e.g. Conda env) with Python 3.10 and then _pip install_ our package.
 
 FCMpy is available on PyPi! The latest version can be installed by:
 
 ```
-pip install fcmpy
+pip install skynapp-fcmpy
 ```
 
 Alternatively, you can install it from source or develop this package, you can fork and clone this repository then install FCMpy by running:
