@@ -244,6 +244,8 @@ class JSON(ReadData):
         d = {}
         for i in dataJson.keys():
             d[i] = dataJson[i]
+
+        pd.set_option('future.no_silent_downcasting', True)
         data = collections.OrderedDict([(i, pd.DataFrame(d[i]).replace(r'^\s*$', np.nan, regex=True)) for i in d])
 
         ColumnsCheck.checkColumns(data=data) # check whether From -> To columns exist.
